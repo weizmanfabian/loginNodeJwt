@@ -1,0 +1,24 @@
+{
+  "name": "loginnodejwt",
+  "version": "1.0.0",
+  "description": "JWT",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizmanfabian/loginNodeJwt.git"
+  },
+  "author": "Weizman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizmanfabian/loginNodeJwt/issues"
+  },
+  "homepage": "https://github.com/weizmanfabian/loginNodeJwt#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
